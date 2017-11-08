@@ -1,0 +1,29 @@
+{
+  "name": "mocha-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha-headless-chrome -f index.html",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robhicks/mocha-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robhicks/mocha-tests/issues"
+  },
+  "homepage": "https://github.com/robhicks/mocha-tests#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "live-server": "^1.2.0",
+    "mocha": "^4.0.1",
+    "mocha-headless-chrome": "^1.6.0"
+  },
+  "dependencies": {
+    "hyperhtml": "^1.12.5"
+  }
+}
